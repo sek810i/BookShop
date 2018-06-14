@@ -7,11 +7,25 @@
 //
 
 import UIKit
+import SwiftyJSON
+import Alamofire
+import RealmSwift
+
 
 class AvtorsTableViewController: UITableViewController {
+	
+	let realm = try! Realm()
+	let conn = DbCon()
+	var file = FilePlist()
+	var listAvtors = List<Avtors>()
 
     override func viewDidLoad() {
-        super.viewDidLoad()
+		listAvtors = conn.loadAvtorsJSON()
+		super.viewDidLoad()
+		
+		self.title = "Авторы"
+		navigationController?.navigationBar.tintColor = #colorLiteral(red: 0, green: 0.568627451, blue: 0.5764705882, alpha: 1)
+		
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -29,23 +43,27 @@ class AvtorsTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return listAvtors.count
     }
 
-    /*
+	
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Avtorscell", for: indexPath) as! AvtorCell
+		
+		cell.nameAvtor.text = listAvtors[indexPath.row].name + " " + listAvtors[indexPath.row].middlename + " " + listAvtors[indexPath.row].surname
+		cell.dateBorn.text = "Родился: " + listAvtors[indexPath.row].dateBirth
+		cell.dateDead.text =  "Умер: " + listAvtors[indexPath.row].dateDie
+		cell.nameAvtor.sizeToFit()
+		cell.dateBorn.sizeToFit()
+		cell.dateDead.sizeToFit()
         return cell
     }
-    */
+	
 
     /*
     // Override to support conditional editing of the table view.
@@ -82,14 +100,21 @@ class AvtorsTableViewController: UITableViewController {
     }
     */
 
-    /*
+	
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+		if segue.identifier == "BooksToAvtor"{
+			if let indexPath = self.tableView.indexPathForSelectedRow{
+				//let nav = segue.destination as! UINavigationController
+				//let controller = nav.topViewController as! NewsViewController
+				let controller = segue.destination as! NewsViewController
+				controller.selectAvtorFlag = true
+				controller.idSelectAvtor = listAvtors[indexPath.row].id
+			}
+		}
     }
-    */
+
 
 }

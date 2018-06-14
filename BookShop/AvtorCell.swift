@@ -10,6 +10,12 @@ import UIKit
 
 class AvtorCell: UITableViewCell {
 
+	@IBOutlet weak var nameAvtor: UILabel!
+	@IBOutlet weak var dateBorn: UILabel!
+	@IBOutlet weak var dateDead: UILabel!
+	
+	
+	var idAvtor: Int = 0
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

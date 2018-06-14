@@ -7,3 +7,17 @@
 //
 
 import Foundation
+
+import Foundation
+
+class FilePlist{
+	var flag: AnyObject? {
+		get{
+			return UserDefaults.standard.object(forKey: "flag") as AnyObject?
+		}
+		set{
+			UserDefaults.standard.set(newValue,forKey: "flag")
+			UserDefaults.standard.synchronize()
+		}
+	}
+}

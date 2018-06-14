@@ -7,3 +7,15 @@
 //
 
 import Foundation
+import RealmSwift
+
+class curUser: Object {
+	dynamic var userId: Int = 0
+	dynamic var userName: String = ""
+	dynamic var userType: String = ""
+	//dynamic var orders: Order = Order()
+	
+	override static func primaryKey() -> String?{
+		return "userId"
+	}
+}

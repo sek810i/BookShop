@@ -10,4 +10,13 @@ import UIKit
 
 class NewsViewCell: UICollectionViewCell {
     
+	@IBOutlet weak var nameBook: UILabel!
+	@IBOutlet weak var imgBook: UIImageView!
+	@IBOutlet weak var avtorBook: UILabel!
+	
+	var BookId: Int = 0
+	
+
+	
+	
 }

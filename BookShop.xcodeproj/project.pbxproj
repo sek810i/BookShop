@@ -7,15 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2099E8D8EB4B40968D418FA2 /* Pods_BookShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB35A6BC46159E32F67F3BB /* Pods_BookShop.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		B30D564F1E5B81CD00DD84FD /* FilePlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30D564E1E5B81CD00DD84FD /* FilePlist.swift */; };
 		B30D56511E5B854F00DD84FD /* AvtorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30D56501E5B854F00DD84FD /* AvtorsTableViewController.swift */; };
+		B34A07FC1E6CB82000088A45 /* Pods_BookShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB35A6BC46159E32F67F3BB /* Pods_BookShop.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		B392D92C1E4A51000014764E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B392D92B1E4A51000014764E /* AppDelegate.swift */; };
 		B392D92E1E4A51000014764E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B392D92D1E4A51000014764E /* ViewController.swift */; };
 		B392D9311E4A51000014764E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B392D92F1E4A51000014764E /* Main.storyboard */; };
 		B392D9331E4A51000014764E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B392D9321E4A51000014764E /* Assets.xcassets */; };
 		B392D9361E4A51000014764E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B392D9341E4A51000014764E /* LaunchScreen.storyboard */; };
 		B392D93E1E4F37010014764E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B392D93D1E4F37010014764E /* MenuViewController.swift */; };
+		B39310451E6594AE00E22677 /* SearchTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39310441E6594AE00E22677 /* SearchTableView.swift */; };
+		B39310471E65D3DE00E22677 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39310461E65D3DE00E22677 /* Shop.swift */; };
+		B39310491E65D58B00E22677 /* ShopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39310481E65D58B00E22677 /* ShopsViewController.swift */; };
+		B393104D1E65EF2300E22677 /* WishList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393104C1E65EF2300E22677 /* WishList.swift */; };
+		B393104F1E66000800E22677 /* WishTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393104E1E66000800E22677 /* WishTableView.swift */; };
+		B39310511E66003800E22677 /* WishViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39310501E66003800E22677 /* WishViewCell.swift */; };
+		B39310531E66244300E22677 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39310521E66244300E22677 /* Store.swift */; };
+		B39310551E67140400E22677 /* KorzinaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39310541E67140400E22677 /* KorzinaCell.swift */; };
+		B39310571E67142700E22677 /* KorzinaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39310561E67142700E22677 /* KorzinaView.swift */; };
+		B39310591E671D3A00E22677 /* Korzina.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39310581E671D3A00E22677 /* Korzina.swift */; };
+		B393105B1E67297D00E22677 /* AddBookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393105A1E67297D00E22677 /* AddBookCell.swift */; };
+		B39310611E6798D200E22677 /* AdminStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39310601E6798D200E22677 /* AdminStoryboard.storyboard */; };
+		B393106B1E6833D900E22677 /* AddNewBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393106A1E6833D900E22677 /* AddNewBookView.swift */; };
+		B393106D1E686F8100E22677 /* AddNewShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393106C1E686F8000E22677 /* AddNewShopView.swift */; };
+		B393106F1E686FA000E22677 /* AddNewAvtorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393106E1E686FA000E22677 /* AddNewAvtorView.swift */; };
+		B39310711E686FBE00E22677 /* AddNewStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39310701E686FBE00E22677 /* AddNewStoreView.swift */; };
+		B39310731E68711000E22677 /* AdminMenuTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39310721E68711000E22677 /* AdminMenuTableView.swift */; };
+		B39310751E6871AA00E22677 /* AddNewGenreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39310741E6871AA00E22677 /* AddNewGenreView.swift */; };
+		B3C3A3501E85EF330058431E /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C3A34F1E85EF330058431E /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		B3C3A3521E85EF380058431E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C3A3511E85EF380058431E /* Alamofire.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		B3C3A3541E85EF3B0058431E /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C3A3531E85EF3B0058431E /* Realm.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		B3C3A3561E85EF3F0058431E /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C3A3551E85EF3F0058431E /* RealmSwift.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		B3F2FA5F1E54D56C00EA37D7 /* Avtors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F2FA5E1E54D56C00EA37D7 /* Avtors.swift */; };
 		B3F2FA611E54D72600EA37D7 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F2FA601E54D72600EA37D7 /* Books.swift */; };
 		B3F2FA631E54D8A400EA37D7 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F2FA621E54D8A400EA37D7 /* Genre.swift */; };
@@ -24,12 +46,23 @@
 		B3F451241E62EB6D004E0494 /* AuthorizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F451231E62EB6D004E0494 /* AuthorizationView.swift */; };
 		B3F451261E62EBCC004E0494 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F451251E62EBCC004E0494 /* Users.swift */; };
 		B3F451281E63056C004E0494 /* curUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F451271E63056C004E0494 /* curUser.swift */; };
-		B3F4512A1E6308FF004E0494 /* KorzinaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F451291E6308FF004E0494 /* KorzinaView.swift */; };
 		B3F4512C1E6433B2004E0494 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4512B1E6433B2004E0494 /* NewsViewController.swift */; };
 		B3F4512E1E6435CA004E0494 /* NewsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4512D1E6435CA004E0494 /* NewsViewCell.swift */; };
 		B3F451301E645F06004E0494 /* InfoBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4512F1E645F06004E0494 /* InfoBookViewController.swift */; };
 		B3F451321E64944C004E0494 /* AvtorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F451311E64944C004E0494 /* AvtorCell.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B3C3A34D1E85EE3D0058431E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		26B88D21B079C09A07332FCA /* Pods-BookShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookShop/Pods-BookShop.debug.xcconfig"; sourceTree = "<group>"; };
@@ -44,6 +77,28 @@
 		B392D9351E4A51000014764E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B392D9371E4A51000014764E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B392D93D1E4F37010014764E /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		B39310441E6594AE00E22677 /* SearchTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableView.swift; sourceTree = "<group>"; };
+		B39310461E65D3DE00E22677 /* Shop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		B39310481E65D58B00E22677 /* ShopsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopsViewController.swift; sourceTree = "<group>"; };
+		B393104C1E65EF2300E22677 /* WishList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishList.swift; sourceTree = "<group>"; };
+		B393104E1E66000800E22677 /* WishTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishTableView.swift; sourceTree = "<group>"; };
+		B39310501E66003800E22677 /* WishViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishViewCell.swift; sourceTree = "<group>"; };
+		B39310521E66244300E22677 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		B39310541E67140400E22677 /* KorzinaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KorzinaCell.swift; sourceTree = "<group>"; };
+		B39310561E67142700E22677 /* KorzinaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KorzinaView.swift; sourceTree = "<group>"; };
+		B39310581E671D3A00E22677 /* Korzina.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Korzina.swift; sourceTree = "<group>"; };
+		B393105A1E67297D00E22677 /* AddBookCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBookCell.swift; sourceTree = "<group>"; };
+		B39310601E6798D200E22677 /* AdminStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AdminStoryboard.storyboard; sourceTree = "<group>"; };
+		B393106A1E6833D900E22677 /* AddNewBookView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewBookView.swift; sourceTree = "<group>"; };
+		B393106C1E686F8000E22677 /* AddNewShopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewShopView.swift; sourceTree = "<group>"; };
+		B393106E1E686FA000E22677 /* AddNewAvtorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewAvtorView.swift; sourceTree = "<group>"; };
+		B39310701E686FBE00E22677 /* AddNewStoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewStoreView.swift; sourceTree = "<group>"; };
+		B39310721E68711000E22677 /* AdminMenuTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminMenuTableView.swift; sourceTree = "<group>"; };
+		B39310741E6871AA00E22677 /* AddNewGenreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewGenreView.swift; sourceTree = "<group>"; };
+		B3C3A34F1E85EF330058431E /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/BookShop-dbuwugynsjelhzdnzkrlesmgbmkg/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		B3C3A3511E85EF380058431E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/BookShop-dbuwugynsjelhzdnzkrlesmgbmkg/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		B3C3A3531E85EF3B0058431E /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "../../../Library/Developer/Xcode/DerivedData/BookShop-dbuwugynsjelhzdnzkrlesmgbmkg/Build/Products/Debug-iphoneos/Realm/Realm.framework"; sourceTree = "<group>"; };
+		B3C3A3551E85EF3F0058431E /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "../../../Library/Developer/Xcode/DerivedData/BookShop-dbuwugynsjelhzdnzkrlesmgbmkg/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework"; sourceTree = "<group>"; };
 		B3F2FA5E1E54D56C00EA37D7 /* Avtors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Avtors.swift; sourceTree = "<group>"; };
 		B3F2FA601E54D72600EA37D7 /* Books.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
 		B3F2FA621E54D8A400EA37D7 /* Genre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
@@ -52,7 +107,6 @@
 		B3F451231E62EB6D004E0494 /* AuthorizationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationView.swift; sourceTree = "<group>"; };
 		B3F451251E62EBCC004E0494 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		B3F451271E63056C004E0494 /* curUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = curUser.swift; sourceTree = "<group>"; };
-		B3F451291E6308FF004E0494 /* KorzinaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KorzinaView.swift; sourceTree = "<group>"; };
 		B3F4512B1E6433B2004E0494 /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		B3F4512D1E6435CA004E0494 /* NewsViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewCell.swift; sourceTree = "<group>"; };
 		B3F4512F1E645F06004E0494 /* InfoBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoBookViewController.swift; sourceTree = "<group>"; };
@@ -65,7 +119,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2099E8D8EB4B40968D418FA2 /* Pods_BookShop.framework in Frameworks */,
+				B3C3A3561E85EF3F0058431E /* RealmSwift.framework in Frameworks */,
+				B3C3A3541E85EF3B0058431E /* Realm.framework in Frameworks */,
+				B3C3A3521E85EF380058431E /* Alamofire.framework in Frameworks */,
+				B3C3A3501E85EF330058431E /* SwiftyJSON.framework in Frameworks */,
+				B34A07FC1E6CB82000088A45 /* Pods_BookShop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +133,10 @@
 		2D9E4D7C29E5BE63A5E03310 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B3C3A3551E85EF3F0058431E /* RealmSwift.framework */,
+				B3C3A3531E85EF3B0058431E /* Realm.framework */,
+				B3C3A3511E85EF380058431E /* Alamofire.framework */,
+				B3C3A34F1E85EF330058431E /* SwiftyJSON.framework */,
 				BCB35A6BC46159E32F67F3BB /* Pods_BookShop.framework */,
 			);
 			name = Frameworks;
@@ -101,27 +163,56 @@
 		B392D92A1E4A51000014764E /* BookShop */ = {
 			isa = PBXGroup;
 			children = (
+				B39310681E6831C400E22677 /* UserInterface */,
+				B3F2FA5D1E54D51500EA37D7 /* Tabels */,
+				B39310691E68329400E22677 /* AdmInInterface */,
 				B392D92B1E4A51000014764E /* AppDelegate.swift */,
 				B392D92D1E4A51000014764E /* ViewController.swift */,
-				B3F451231E62EB6D004E0494 /* AuthorizationView.swift */,
-				B3F451291E6308FF004E0494 /* KorzinaView.swift */,
 				B3F2FA661E54DB0400EA37D7 /* DbConnect.swift */,
-				B3F4512B1E6433B2004E0494 /* NewsViewController.swift */,
-				B3F4512F1E645F06004E0494 /* InfoBookViewController.swift */,
-				B3F4512D1E6435CA004E0494 /* NewsViewCell.swift */,
-				B3F451311E64944C004E0494 /* AvtorCell.swift */,
-				B30D56501E5B854F00DD84FD /* AvtorsTableViewController.swift */,
 				B30D564E1E5B81CD00DD84FD /* FilePlist.swift */,
-				B3F2FA5D1E54D51500EA37D7 /* Tabels */,
 				B392D92F1E4A51000014764E /* Main.storyboard */,
+				B39310601E6798D200E22677 /* AdminStoryboard.storyboard */,
 				B392D9321E4A51000014764E /* Assets.xcassets */,
 				B392D9341E4A51000014764E /* LaunchScreen.storyboard */,
 				B392D9371E4A51000014764E /* Info.plist */,
-				B392D93D1E4F37010014764E /* MenuViewController.swift */,
 			);
 			path = BookShop;
 			sourceTree = "<group>";
 			usesTabs = 1;
+		};
+		B39310681E6831C400E22677 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				B392D93D1E4F37010014764E /* MenuViewController.swift */,
+				B3F451231E62EB6D004E0494 /* AuthorizationView.swift */,
+				B3F4512B1E6433B2004E0494 /* NewsViewController.swift */,
+				B3F4512D1E6435CA004E0494 /* NewsViewCell.swift */,
+				B30D56501E5B854F00DD84FD /* AvtorsTableViewController.swift */,
+				B3F451311E64944C004E0494 /* AvtorCell.swift */,
+				B3F4512F1E645F06004E0494 /* InfoBookViewController.swift */,
+				B393104E1E66000800E22677 /* WishTableView.swift */,
+				B39310501E66003800E22677 /* WishViewCell.swift */,
+				B39310481E65D58B00E22677 /* ShopsViewController.swift */,
+				B39310441E6594AE00E22677 /* SearchTableView.swift */,
+				B39310561E67142700E22677 /* KorzinaView.swift */,
+				B39310541E67140400E22677 /* KorzinaCell.swift */,
+				B393105A1E67297D00E22677 /* AddBookCell.swift */,
+			);
+			name = UserInterface;
+			sourceTree = "<group>";
+		};
+		B39310691E68329400E22677 /* AdmInInterface */ = {
+			isa = PBXGroup;
+			children = (
+				B393106A1E6833D900E22677 /* AddNewBookView.swift */,
+				B393106E1E686FA000E22677 /* AddNewAvtorView.swift */,
+				B39310721E68711000E22677 /* AdminMenuTableView.swift */,
+				B39310741E6871AA00E22677 /* AddNewGenreView.swift */,
+				B393106C1E686F8000E22677 /* AddNewShopView.swift */,
+				B39310701E686FBE00E22677 /* AddNewStoreView.swift */,
+			);
+			name = AdmInInterface;
+			sourceTree = "<group>";
 		};
 		B3F2FA5D1E54D51500EA37D7 /* Tabels */ = {
 			isa = PBXGroup;
@@ -130,6 +221,10 @@
 				B3F2FA601E54D72600EA37D7 /* Books.swift */,
 				B3F451271E63056C004E0494 /* curUser.swift */,
 				B3F2FA621E54D8A400EA37D7 /* Genre.swift */,
+				B39310461E65D3DE00E22677 /* Shop.swift */,
+				B39310581E671D3A00E22677 /* Korzina.swift */,
+				B393104C1E65EF2300E22677 /* WishList.swift */,
+				B39310521E66244300E22677 /* Store.swift */,
 				B3F2FA641E54D9FF00EA37D7 /* Order.swift */,
 				B3F451251E62EBCC004E0494 /* Users.swift */,
 			);
@@ -158,6 +253,7 @@
 				B392D9261E4A51000014764E /* Resources */,
 				79A84B73203140E3B4E685A8 /* [CP] Embed Pods Frameworks */,
 				173D61FF2906949DDCF92E7C /* [CP] Copy Pods Resources */,
+				B3C3A34D1E85EE3D0058431E /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -175,7 +271,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Богдан Олег";
 				TargetAttributes = {
 					B392D9271E4A51000014764E = {
@@ -210,6 +306,7 @@
 				B392D9361E4A51000014764E /* LaunchScreen.storyboard in Resources */,
 				B392D9331E4A51000014764E /* Assets.xcassets in Resources */,
 				B392D9311E4A51000014764E /* Main.storyboard in Resources */,
+				B39310611E6798D200E22677 /* AdminStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,7 +330,7 @@
 		};
 		79A84B73203140E3B4E685A8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -268,24 +365,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B39310591E671D3A00E22677 /* Korzina.swift in Sources */,
+				B39310511E66003800E22677 /* WishViewCell.swift in Sources */,
+				B39310571E67142700E22677 /* KorzinaView.swift in Sources */,
 				B3F451301E645F06004E0494 /* InfoBookViewController.swift in Sources */,
+				B39310551E67140400E22677 /* KorzinaCell.swift in Sources */,
 				B30D56511E5B854F00DD84FD /* AvtorsTableViewController.swift in Sources */,
 				B392D92E1E4A51000014764E /* ViewController.swift in Sources */,
+				B39310471E65D3DE00E22677 /* Shop.swift in Sources */,
+				B39310531E66244300E22677 /* Store.swift in Sources */,
+				B39310751E6871AA00E22677 /* AddNewGenreView.swift in Sources */,
+				B39310491E65D58B00E22677 /* ShopsViewController.swift in Sources */,
+				B393106B1E6833D900E22677 /* AddNewBookView.swift in Sources */,
+				B39310711E686FBE00E22677 /* AddNewStoreView.swift in Sources */,
 				B30D564F1E5B81CD00DD84FD /* FilePlist.swift in Sources */,
 				B3F4512C1E6433B2004E0494 /* NewsViewController.swift in Sources */,
-				B3F4512A1E6308FF004E0494 /* KorzinaView.swift in Sources */,
+				B39310451E6594AE00E22677 /* SearchTableView.swift in Sources */,
 				B3F4512E1E6435CA004E0494 /* NewsViewCell.swift in Sources */,
 				B392D93E1E4F37010014764E /* MenuViewController.swift in Sources */,
+				B39310731E68711000E22677 /* AdminMenuTableView.swift in Sources */,
 				B3F451261E62EBCC004E0494 /* Users.swift in Sources */,
 				B3F451281E63056C004E0494 /* curUser.swift in Sources */,
 				B3F451321E64944C004E0494 /* AvtorCell.swift in Sources */,
 				B3F2FA671E54DB0400EA37D7 /* DbConnect.swift in Sources */,
+				B393104D1E65EF2300E22677 /* WishList.swift in Sources */,
+				B393105B1E67297D00E22677 /* AddBookCell.swift in Sources */,
 				B3F2FA5F1E54D56C00EA37D7 /* Avtors.swift in Sources */,
+				B393106F1E686FA000E22677 /* AddNewAvtorView.swift in Sources */,
 				B3F2FA631E54D8A400EA37D7 /* Genre.swift in Sources */,
 				B392D92C1E4A51000014764E /* AppDelegate.swift in Sources */,
+				B393104F1E66000800E22677 /* WishTableView.swift in Sources */,
 				B3F2FA611E54D72600EA37D7 /* Books.swift in Sources */,
 				B3F2FA651E54D9FF00EA37D7 /* Order.swift in Sources */,
 				B3F451241E62EB6D004E0494 /* AuthorizationView.swift in Sources */,
+				B393106D1E686F8100E22677 /* AddNewShopView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +427,7 @@
 		B392D9381E4A51000014764E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -352,6 +466,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -363,6 +478,7 @@
 		B392D9391E4A51000014764E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -395,7 +511,9 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
@@ -408,13 +526,18 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = ZV8A2G835T;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				INFOPLIST_FILE = BookShop/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.BogdanOleg.BookShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -426,13 +549,18 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = ZV8A2G835T;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				INFOPLIST_FILE = BookShop/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.BogdanOleg.BookShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
